@@ -16,6 +16,8 @@
 		E4822B7C1F3894A700695CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4822B7A1F3894A700695CD2 /* LaunchScreen.storyboard */; };
 		E4822B871F3894A700695CD2 /* TextureChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822B861F3894A700695CD2 /* TextureChatTests.swift */; };
 		E4822B921F3894A700695CD2 /* TextureChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822B911F3894A700695CD2 /* TextureChatUITests.swift */; };
+		E4822BA21F38CEB500695CD2 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822BA01F38CEB500695CD2 /* ChatMessageCell.swift */; };
+		E4822BA51F38F68800695CD2 /* UIImage+Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822BA41F38F68800695CD2 /* UIImage+Effects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E4822B8D1F3894A700695CD2 /* TextureChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextureChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4822B911F3894A700695CD2 /* TextureChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureChatUITests.swift; sourceTree = "<group>"; };
 		E4822B931F3894A700695CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4822BA01F38CEB500695CD2 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		E4822BA41F38F68800695CD2 /* UIImage+Effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Effects.swift"; sourceTree = "<group>"; };
 		F8B91013E4FE7491D18E9E40 /* Pods-TextureChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextureChatUITests/Pods-TextureChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE3CF53722EFC15E3C09E8BD /* Pods-TextureChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextureChatUITests/Pods-TextureChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,7 @@
 		E4822B701F3894A700695CD2 /* TextureChat */ = {
 			isa = PBXGroup;
 			children = (
+				E4822B9F1F38CE9B00695CD2 /* View */,
 				E4822B711F3894A700695CD2 /* AppDelegate.swift */,
 				E4822B731F3894A700695CD2 /* ViewController.swift */,
 				E4822B781F3894A700695CD2 /* Assets.xcassets */,
@@ -150,6 +155,15 @@
 				E4822B931F3894A700695CD2 /* Info.plist */,
 			);
 			path = TextureChatUITests;
+			sourceTree = "<group>";
+		};
+		E4822B9F1F38CE9B00695CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4822BA01F38CEB500695CD2 /* ChatMessageCell.swift */,
+				E4822BA41F38F68800695CD2 /* UIImage+Effects.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E5A0A1531E131DE044FF4E13 /* Frameworks */ = {
@@ -445,6 +459,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4822BA51F38F68800695CD2 /* UIImage+Effects.swift in Sources */,
+				E4822BA21F38CEB500695CD2 /* ChatMessageCell.swift in Sources */,
 				E4822B741F3894A700695CD2 /* ViewController.swift in Sources */,
 				E4822B721F3894A700695CD2 /* AppDelegate.swift in Sources */,
 			);
