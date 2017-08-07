@@ -6,7 +6,7 @@ target 'TextureChat' do
   use_frameworks!
 
   # Pods for TextureChat
-	pod "Texture"
+        pod 'Texture'
 
   target 'TextureChatTests' do
     inherit! :search_paths

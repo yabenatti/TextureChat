@@ -12,7 +12,6 @@
 		D6D36CB06D900D0137CB09D0 /* Pods_TextureChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2DC6C0BD05B53EA7D64C1A /* Pods_TextureChatUITests.framework */; };
 		E4822B721F3894A700695CD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822B711F3894A700695CD2 /* AppDelegate.swift */; };
 		E4822B741F3894A700695CD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822B731F3894A700695CD2 /* ViewController.swift */; };
-		E4822B771F3894A700695CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4822B751F3894A700695CD2 /* Main.storyboard */; };
 		E4822B791F3894A700695CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4822B781F3894A700695CD2 /* Assets.xcassets */; };
 		E4822B7C1F3894A700695CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4822B7A1F3894A700695CD2 /* LaunchScreen.storyboard */; };
 		E4822B871F3894A700695CD2 /* TextureChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4822B861F3894A700695CD2 /* TextureChatTests.swift */; };
@@ -47,7 +46,6 @@
 		E4822B6E1F3894A700695CD2 /* TextureChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4822B711F3894A700695CD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4822B731F3894A700695CD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4822B761F3894A700695CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4822B781F3894A700695CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4822B7B1F3894A700695CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4822B7D1F3894A700695CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 			children = (
 				E4822B711F3894A700695CD2 /* AppDelegate.swift */,
 				E4822B731F3894A700695CD2 /* ViewController.swift */,
-				E4822B751F3894A700695CD2 /* Main.storyboard */,
 				E4822B781F3894A700695CD2 /* Assets.xcassets */,
 				E4822B7A1F3894A700695CD2 /* LaunchScreen.storyboard */,
 				E4822B7D1F3894A700695CD2 /* Info.plist */,
@@ -286,7 +283,6 @@
 			files = (
 				E4822B7C1F3894A700695CD2 /* LaunchScreen.storyboard in Resources */,
 				E4822B791F3894A700695CD2 /* Assets.xcassets in Resources */,
-				E4822B771F3894A700695CD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,14 +482,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4822B751F3894A700695CD2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4822B761F3894A700695CD2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4822B7A1F3894A700695CD2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -707,6 +695,7 @@
 				E4822B981F3894A700695CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4822B991F3894A700695CD2 /* Build configuration list for PBXNativeTarget "TextureChatTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +704,7 @@
 				E4822B9B1F3894A700695CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4822B9C1F3894A700695CD2 /* Build configuration list for PBXNativeTarget "TextureChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +713,7 @@
 				E4822B9E1F3894A700695CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
