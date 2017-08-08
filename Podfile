@@ -6,8 +6,11 @@ target 'TextureChat' do
   use_frameworks!
 
   # Pods for TextureChat
-        pod 'Texture'
-
+ 	pod 'MBPhotoPicker'
+  	pod 'Texture', '~> 2.3'
+  	pod 'DropDown', '~> 2'
+  	pod 'Toolbar'
+  	pod 'ionicons'
   target 'TextureChatTests' do
     inherit! :search_paths
     # Pods for testing
